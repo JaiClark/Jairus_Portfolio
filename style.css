@@ -1,17 +1,17 @@
 h1 {
-    background-color: #237524;
+    background-color: #16AB9B;
     font-family: 'Times New Roman';
     float: left;
     padding: 15px;
     font-size: 36px;
-    border: 3px solid #237524;
+    border: 3px solid #16AB9B;
     margin-left: 200px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 h2{
-    color: #237524;
+    color: #16AB9B;
     font-size: 36px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -23,8 +23,8 @@ ul {
     width: auto;
     float: right;
     margin-right: 200px;
+    margin-top: 25px;
 }
-
 li {
     word-spacing: 15px;
     display: inline;
@@ -33,7 +33,7 @@ li {
 a {
     text-decoration: none;
     float: left;
-    color: black;
+    color: gray;
     padding: 5px;
 }
 
@@ -54,7 +54,7 @@ img {
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 35px;
     padding-bottom: 15px;
 }
@@ -74,7 +74,7 @@ form {
     padding-bottom: 30px;
 }
 input[type=text]{
-    width: 25%;
+    width: 89%;
 }
 
 .container {
@@ -90,4 +90,66 @@ input[type=text]{
     content:"";
     display: block;
     clear: both;
+}
+
+.portfolio {
+    float: left;
+    display: inline;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 55%;
+    top: 55%;
+    left: 19%;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 50%;
+    top: 55%;
+    left: 42%;
+    padding: 11px;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    background:#16AB9B;
+    padding: 5px;
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    background:#16AB9B;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -5%;
+    left: 16%;
+    background:#16AB9B;
+    padding: 5px;
+    color: white;
 }
