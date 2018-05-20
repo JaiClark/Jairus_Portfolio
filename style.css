@@ -1,13 +1,13 @@
-h1 { 
+h1 {
     background-color: #237524;
     font-family: 'Times New Roman';
     float: left;
     padding: 15px;
     font-size: 36px;
+    border: 3px solid #237524;
     margin-left: 200px;
     margin-top: 0px;
-    border: 3px solid #237524;
-    clear: both;
+    margin-bottom: 0px;
 }
 
 h2{
@@ -20,23 +20,21 @@ h2{
 
 ul {
     list-style-type: none;
-    padding: 40px;
-    background-color: #ffffff;
-    width: 100%;
-    line-height: 100%;
+    width: auto;
+    float: right;
+    margin-right: 200px;
 }
 
 li {
     word-spacing: 15px;
+    display: inline;
 }
 
 a {
     text-decoration: none;
     float: left;
     color: black;
-    margin-left: 185px;
-    padding: 0px;
-    word-spacing: 100px;
+    padding: 5px;
 }
 
 body {
@@ -57,6 +55,8 @@ img {
 
 p {
     font-size: 24px;
+    margin-left: 35px;
+    padding-bottom: 15px;
 }
 
 hr {
@@ -71,4 +71,23 @@ header {
 
 form {
     margin-left: 20px;
+    padding-bottom: 30px;
+}
+input[type=text]{
+    width: 25%;
+}
+
+.container {
+    width: 100%;
+    background: white;
+}
+
+.container-2 {
+    float;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
 }
